@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="t">
+  <title id="t">Joshua Gabriel Ortiz, Software Engineering</title>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .doc { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .bar { transform-box: fill-box; transform-origin: left; animation: fill 2.4s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .cursor, .doc, .bar { animation: none; } }
+  </style>
+  <defs>
+    <clipPath id="card"><rect width="1280" height="360" rx="20"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".035" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#A21CFF" stop-opacity=".35"/><stop offset="1" stop-color="#A21CFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#A21CFF"/><stop offset="1" stop-color="#E879F9"/></linearGradient>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="360" fill="#0E0B16"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <ellipse cx="1040" cy="170" rx="360" ry="260" fill="url(#glow)"/>
+    <rect x="0" y="0" width="8" height="360" fill="url(#accent)"/>
+  </g>
+
+  <text x="88" y="92" class="mono" font-size="20" fill="#C084FC" letter-spacing="2">// ESTUDIANTE DE INGENIERÍA DE SOFTWARE · MÉXICO</text>
+  <text x="84" y="172" font-size="68" font-weight="700" fill="#F5F3FF">Joshua Gabriel</text>
+  <text x="84" y="244" font-size="68" font-weight="700" fill="url(#accent)">Ortiz</text>
+  <text x="88" y="300" class="mono" font-size="22" fill="#A1A1AA">&gt; full-stack · TypeScript · Next.js · Python<tspan class="cursor" fill="#E879F9">_</tspan></text>
+
+  <g class="doc">
+    <rect x="890" y="62" width="280" height="240" rx="14" fill="#17121F" stroke="#3B2A55" stroke-width="2"/>
+    <circle cx="914" cy="86" r="5" fill="#F87171"/><circle cx="932" cy="86" r="5" fill="#FBBF24"/><circle cx="950" cy="86" r="5" fill="#34D399"/>
+    <text x="968" y="91" class="mono" font-size="13" fill="#71717A">contrato.pdf</text>
+    <path d="M890 106H1170" stroke="#3B2A55" stroke-width="1.5"/>
+    <text x="1030" y="136" font-size="14" font-weight="700" fill="#E9D5FF" text-anchor="middle" letter-spacing="1">CONTRATO DE ARRENDAMIENTO</text>
+    <rect class="bar" x="914" y="156" width="232" height="8" rx="4" fill="#2E2340"/>
+    <rect class="bar" x="914" y="174" width="180" height="8" rx="4" fill="#2E2340" style="animation-delay:.2s"/>
+    <rect class="bar" x="914" y="202" width="232" height="8" rx="4" fill="#2E2340" style="animation-delay:.4s"/>
+    <rect class="bar" x="914" y="220" width="140" height="8" rx="4" fill="#2E2340" style="animation-delay:.6s"/>
+    <path d="M914 270H1014M1046 270H1146" stroke="#52406E" stroke-width="1.5"/>
+    <path d="M922 262c10-14 18 6 28-6s14 4 24-2" fill="none" stroke="#C084FC" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="964" y="288" font-size="11" fill="#71717A" text-anchor="middle">Arrendador</text>
+    <text x="1096" y="288" font-size="11" fill="#71717A" text-anchor="middle">Arrendatario</text>
+  </g>
+</svg>
