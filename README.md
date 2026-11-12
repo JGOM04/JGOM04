@@ -51,30 +51,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
 
-## Lo que estoy construyendo
-
-<img src="assets/legalbot-inicio.png" width="100%" alt="Página de inicio de LegalBot">
-
-**LegalBot** arma contratos de arrendamiento para México: respondes un cuestionario guiado y te entrega el contrato con las cláusulas correctas para tu estado, en PDF o Word, listo para firmarse electrónicamente.
-
-- **7 tipos de contrato** con reglas por estado (CDMX, Edomex, Jalisco y Nuevo León), incluido el tope legal de aumento de renta en CDMX
-- **Base de datos en PostgreSQL con Prisma** para usuarios, contratos, planes y equipos
-- **Pagos reales con Stripe:** suscripciones, portal de facturación y webhooks que activan el plan
-- **Firma electrónica** con seguimiento por webhook y **asistente con IA** (Claude) para dudas sobre cada contrato
-- Exportación a **PDF y Word**, contratos **bilingües** y anexos automáticos
-- Login con correo o Google, recuperación de contraseña y plan Empresa multiusuario con marca propia
-
-`Next.js 16` `React 19` `TypeScript` `PostgreSQL` `Prisma` `Stripe` `Vitest`
-
-**Roadmap**
-- [x] Cuestionario guiado y generación de contratos por estado
-- [x] Pagos con Stripe y planes FREE / PRO / EMPRESA
-- [x] Firma electrónica y asistente con IA
-- [x] Recuperación de contraseña por correo
-- [ ] Lanzamiento en producción
-- [ ] Más estados de la República
-
-> El código es privado; con gusto hago una demo en vivo.
 
 ## Logros y experiencia
 
