@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="banner.svg?v=2" width="100%" alt="Joshua Gabriel Ortiz Martínez, Ingeniería en Software y Minería de Datos, Universidad Autónoma de Guadalajara. Datos, backend, machine learning y ciberseguridad.">
-  <img src="about.svg?v=2" width="100%" alt="Sobre mí. Soy Joshua, estudiante de 7.º semestre de Ingeniería en Software y Minería de Datos en la Universidad Autónoma de Guadalajara. Diseño bases de datos, construyo modelos de machine learning y sistemas RAG, y desarrollo apps web y móviles. Mi equipo quedó en el Top 4 internacional del NASA Space Apps Challenge. Busco prácticas en ingeniería de datos, backend o ciberseguridad.">
+  <img src="banner.svg?v=3" width="100%" alt="Joshua Gabriel Ortiz Martínez, Ingeniería en Software y Minería de Datos. Datos, backend, machine learning y ciberseguridad.">
+  <img src="about.svg?v=3" width="100%" alt="Sobre mí. Soy Joshua, estudiante de Ingeniería en Software y Minería de Datos. Diseño bases de datos, construyo modelos de machine learning y sistemas RAG, y desarrollo apps web y móviles. Mi equipo quedó en el Top 4 internacional del NASA Space Apps Challenge. Busco prácticas en ingeniería de datos, backend o ciberseguridad.">
 </p>
 
 ## Herramientas
