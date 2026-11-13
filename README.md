@@ -68,6 +68,7 @@
 | --- | --- | --- |
 | [**mva-hackathon-2026-track1**](https://github.com/JGOM04/mva-hackathon-2026-track1) | MVA Hackathon 2026: pipeline que prioriza variantes genéticas candidatas a partir del fenotipo del paciente, con visualizaciones de resultados | Python · NumPy · matplotlib |
 | [**conversor-unidades**](https://github.com/JGOM04/conversor-unidades) | Conversor de unidades hecho a partir de requerimientos y casos de prueba documentados, con suite automatizada | Python · pytest |
+| [**RAG-Personal**](https://github.com/JGOM04/RAG-Personal) | Asistente en la terminal que responde preguntas sobre tus propios documentos (PDF, Word, Excel, EPUB y más) con RAG: un agente con Claude decide cuándo buscar, con embeddings multilingües locales e indexación incremental | Python · LlamaIndex · Claude API · Hugging Face |
 
 ## Idiomas
 
